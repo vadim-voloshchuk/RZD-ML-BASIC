@@ -5,12 +5,18 @@
 # one=1
 # number=0.1222
 # w=one+number
-# print(+ str(len(hello_string + second_string)+ "ppp"))
+hello_string = "Привет всем!"
+age = 0
+num = 10
 
-num=10
-# print(num-1)
-# print(num-2)
-# print(num-3)
-# print(num-4)
 for i in range(num):
-    print("я люблю "+str(i))
+    age = age + 1
+
+    if age != 5:
+        second_string = 'Я занимаюсь "питоном" лет: ' + str(age)
+        first_int = len(hello_string)
+        second_int = len(second_string)
+        result_int = first_int + second_int
+        result_string = "В сумме строк " + str(result_int) + " символов"
+        print(hello_string, second_string)
+        print(result_string)
