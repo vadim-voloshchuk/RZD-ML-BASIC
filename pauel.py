@@ -1,0 +1,22 @@
+# первое впечатление
+# hello_string ="я занимаюсь питоном:"
+# second_string="ddd"
+# age=1240
+# one=1
+# number=0.1222
+# w=one+number
+hello_string = "Привет всем!"
+age = 0
+num = 10
+
+for i in range(num):
+    age = age + 1
+
+    if age != 5:
+        second_string = 'Я занимаюсь "питоном" лет: ' + str(age)
+        first_int = len(hello_string)
+        second_int = len(second_string)
+        result_int = first_int + second_int
+        result_string = "В сумме строк " + str(result_int) + " символов"
+        print(hello_string, second_string)
+        print(result_string)
