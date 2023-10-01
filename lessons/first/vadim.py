@@ -1,7 +1,3 @@
-# Первое впечатление
-# Типы данных: int, float, string
-# Конструкции: if, for
-
 hello_string = "Привет всем!"
 age = 0
 num = 10
